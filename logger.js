@@ -1,4 +1,4 @@
-'use strict'
+
 
 const events = require('./events.js');
 
@@ -7,6 +7,16 @@ events.on('update', payload => doSomething('update', payload));
 events.on('delete', payload => doSomething('delete', payload));
 
 function doSomething(action, payload) {
-    console.log(action.toString().toUpperCase(), payload)
+  console.log(action.toString().toUpperCase(), payload);
 }
+
+
+
+
+
+
+
+
+
+
 
