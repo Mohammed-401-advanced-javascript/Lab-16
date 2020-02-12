@@ -1,8 +1,9 @@
 /* eslint-disable strict */
 'use strict';
 
-const Events = require('events');
+const EE = require('events');
 
-const events = new Events();
+
+const events = new EE();
 
 module.exports = events;
